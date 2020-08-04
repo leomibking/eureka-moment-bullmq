@@ -12,7 +12,7 @@ Documentação V4: https://docs.bullmq.io/ | https://github.com/taskforcesh/bull
 Documentação v3: https://optimalbits.github.io/bull/ | https://github.com/OptimalBits/bull  
 
 ### O que é?
-* Biblioteca em node.js que implementa um sistema de filas baseado no Redis.
+* Biblioteca em node.js que implementa um sistema de filas baseado no Redis
 * Fácil de escalar horizontalmente -> adiciona mais workers para paralelismo
 * Consistente
 * Performático
@@ -23,4 +23,4 @@ Documentação v3: https://optimalbits.github.io/bull/ | https://github.com/Opti
 * Delay (https://docs.bullmq.io/guide/jobs/delayed)
 * Scheduler e repetição de jobs (cron) (https://docs.bullmq.io/guide/jobs/repeatable)
 * Retentativas
-* Pode ser usado com multiplas threads
+* Pode ser usado com multiplas threads e fora da thread principal (sandbox)
