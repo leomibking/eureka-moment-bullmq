@@ -24,3 +24,12 @@ Documentação v3: https://optimalbits.github.io/bull/ | https://github.com/Opti
 * Scheduler e repetição de jobs (cron) (https://docs.bullmq.io/guide/jobs/repeatable)
 * Retentativas
 * Pode ser usado com multiplas threads e fora da thread principal (sandbox)
+
+### Para rodar o projeto:
+* Executar o `yarn install` para instalar as dependencias do projeto
+* Executar o `yarn build` para compilar o projeto ou `yarn dev` para executar o projeto sem precisar compilar
+* Abrir o navegador: (http://localhost:3333) para acessar o painel (board) do BullMQ
+![Board](https://i.imgur.com/ug30yb2.png)
+
+Exemplo do processo rodando em sandbox:
+![sandbox](https://i.imgur.com/q0wOMT2.png)

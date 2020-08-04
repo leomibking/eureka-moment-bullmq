@@ -1,6 +1,6 @@
 import { Job, Queue, Worker } from 'bullmq';
 
-const SandboxQueue = new Queue('SandboxQueue');
+export const SandboxQueue = new Queue('SandboxQueue');
 SandboxQueue.on('', () => {
   console.log('SandboxQueue', 'Job adicionado');
 });
