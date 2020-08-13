@@ -21,7 +21,7 @@ export const ImportacaoWorker = new Worker(
 export const initScheduler = async (): Promise<void> => {
   await ImportacaoQueue.add('import', null, {
     repeat: {
-      cron: '*/5 * * * * *',
+      cron: '*/15 * * * * *',
     },
   });
 };

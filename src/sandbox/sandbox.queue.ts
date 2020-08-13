@@ -11,6 +11,7 @@ const SandboxWorker = new Worker(
 
 SandboxWorker.on('completed', (job: Job) => {
   console.log(
+    new Date(),
     'SandboxWorker',
     'job completed',
     job.data,
